@@ -1,4 +1,4 @@
-import '../entities/event.dart';
+import '../entities/event_entity.dart';
 import '../repositories/event_repository.dart';
 
 class GetEvents {

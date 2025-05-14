@@ -1,4 +1,4 @@
-import '../../domain/entities/event.dart';
+import '../../domain/entities/event_entity.dart';
 import '../../domain/repositories/event_repository.dart';
 import '../datasources/event_remote_data_source.dart';
 

@@ -4,8 +4,8 @@ import 'package:http/http.dart' as http;
 
 import 'features/calendar/data/datasources/event_remote_data_source.dart';
 import 'features/calendar/data/repositories/event_repository_impl.dart';
-import 'features/calendar/domain/usecases/get_events.dart';
-import 'features/calendar/core/bloc/calendar_bloc.dart';
+import 'features/calendar/domain/usecases/get_events_usecase.dart';
+import 'features/calendar/presentation/bloc/calendar_bloc.dart';
 import 'features/calendar/presentation/pages/calendar_page.dart';
 
 void main() {
@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Calendar App',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: BlocProvider(

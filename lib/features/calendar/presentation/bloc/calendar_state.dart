@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import '../../domain/entities/event.dart';
+import '../../domain/entities/event_entity.dart';
 
 abstract class CalendarState extends Equatable {
   const CalendarState();

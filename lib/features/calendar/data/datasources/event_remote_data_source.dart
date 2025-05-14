@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-import '../../domain/entities/event.dart';
+import '../../domain/entities/event_entity.dart';
 import '../models/event_model.dart';
 
 abstract class EventRemoteDataSource {

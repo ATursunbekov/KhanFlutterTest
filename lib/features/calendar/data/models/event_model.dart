@@ -1,4 +1,4 @@
-import '../../domain/entities/event.dart';
+import '../../domain/entities/event_entity.dart';
 
 class EventModel extends Event {
   const EventModel({

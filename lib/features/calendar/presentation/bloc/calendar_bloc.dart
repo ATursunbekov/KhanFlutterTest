@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../domain/usecases/get_events.dart';
+import '../../domain/usecases/get_events_usecase.dart';
 import 'calendar_event.dart';
 import 'calendar_state.dart';
 
